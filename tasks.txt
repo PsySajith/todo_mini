@@ -1,0 +1,8 @@
+
+# View all tasks
+# Mark a task as completed
+# Delete a task
+# Save and load tasks from a text file
+# Exit the program
+
+# ===============
