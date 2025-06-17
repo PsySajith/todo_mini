@@ -35,6 +35,12 @@ def delete_task():
     except (ValueError,IndexError):
         print(f"Invalid number")
 
+def save():
+    with open(tasks.txt, "w") as file:
+        for task in tasks:
+            file.write(f"{task['name']}|{task['completed']}\n")
+
+
 while True:
     show_menu()
     choice = input("Enter your choice: ")
