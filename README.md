@@ -1,6 +1,6 @@
 # ✅ To-Do Mini (Python Console App)
 
-This is a simple to-do list application made with basic Python. It runs in the terminal and allows users to add, view, and delete tasks.
+This is a simple to-do list made with basic Python. It runs in the terminal and allows users to add, view, and delete tasks.
 
 # 💡 Features
 - Add tasks
