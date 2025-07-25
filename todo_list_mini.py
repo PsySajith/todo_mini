@@ -36,7 +36,7 @@ def delete_task():
         print(f"Invalid number")
 
 def save():
-    with open(tasks.txt, "w") as file:
+    with open("tasks.txt", "w") as file:
         for task in tasks:
             file.write(f"{task['name']}|{task['completed']}\n")
 
